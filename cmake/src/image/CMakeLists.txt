@@ -1,6 +1,9 @@
 # Dependency libraries
 find_package(OpenCV REQUIRED)
 
+message(STATUS "OpenCV_LIBS: ${OpenCV_LIBS}")
+message(STATUS "OpenCV_INCLUDE_DIRS: ${OpenCV_INCLUDE_DIRS}")
+
 # Add libraries
 set(IMAGE_SRC
     src/image.cpp
